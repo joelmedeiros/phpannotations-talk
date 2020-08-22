@@ -1,0 +1,23 @@
+{
+    "name": "joelmedeiros/phpannotations-talk",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joel Medeiros",
+            "email": "jooelmedeiros+github@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "phpunit" : "./vendor/bin/phpunit"
+    }
+}
