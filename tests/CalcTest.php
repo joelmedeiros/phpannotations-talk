@@ -4,6 +4,9 @@ use PHPUnit\Framework\TestCase;
 
 class CalcTest extends TestCase 
 {
+    /**
+     * @test Sum two numbers and assert if they are matching the result
+     */
     public function testSum()
     {
         $this->assertEquals(1 + 1, 2);
