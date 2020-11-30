@@ -41,7 +41,7 @@ class Metadata
             $method = "get" . ucfirst($tag);
             $fields = new $this->class();
             if (method_exists($fields, $method)) {
-                $output = str_replace("%$tag%", $fields->{$method}(), $output);
+                $output = str_replace("%$tag%", (string) $fields->{$method}(), $output);
             }
         }
 
